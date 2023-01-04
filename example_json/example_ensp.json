@@ -1,0 +1,47 @@
+{
+    "LSW3": {
+        "telnet_host": "127.0.0.1",
+        "telnet_port": 2003,
+        "device_port": "GigabitEthernet 0/0/1",
+        "ssh_ip": "192.168.56.3",
+        "usr": "python",
+        "passwd": "qqyk3321",
+        "vlan": 10
+    },
+    "LSW4": {
+        "telnet_host": "127.0.0.1",
+        "telnet_port": 2004,
+        "device_port": "GigabitEthernet 0/0/1",
+        "ssh_ip": "192.168.56.4",
+        "usr": "python",
+        "passwd": "qqyk3321",
+        "vlan": 10
+    },
+    "LSW5": {
+        "telnet_host": "127.0.0.1",
+        "telnet_port": 2005,
+        "device_port": "GigabitEthernet 0/0/1",
+        "ssh_ip": "192.168.56.5",
+        "usr": "python",
+        "passwd": "qqyk3321",
+        "vlan": 10
+    },
+    "LSW6": {
+        "telnet_host": "127.0.0.1",
+        "telnet_port": 2006,
+        "device_port": "GigabitEthernet 0/0/1",
+        "ssh_ip": "192.168.56.6",
+        "usr": "python",
+        "passwd": "qqyk3321",
+        "vlan": 10
+    },
+    "LSW7": {
+        "telnet_host": "127.0.0.1",
+        "telnet_port": 2007,
+        "device_port": "GigabitEthernet 0/0/1",
+        "ssh_ip": "192.168.56.7",
+        "usr": "python",
+        "passwd": "qqyk3321",
+        "vlan": 10
+    }
+}

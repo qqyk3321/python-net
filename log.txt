@@ -1,8 +1,0 @@
-2023-01-03 16:15:18,341 - log.py[line:37] - INFO: INFO
-2023-01-03 16:15:18,342 - log.py[line:39] - WARNING: WARNING
-2023-01-03 16:15:18,344 - log.py[line:43] - CRITICAL: CRITICAL
-2023-01-03 16:15:18,345 - log.py[line:41] - ERROR: ERROR
-2023-01-03 16:18:04,822 - qqyklog.py[line:37] - INFO: INFO
-2023-01-03 16:18:04,825 - qqyklog.py[line:39] - WARNING: WARNING
-2023-01-03 16:18:04,827 - qqyklog.py[line:43] - CRITICAL: CRITICAL
-2023-01-03 16:18:04,828 - qqyklog.py[line:41] - ERROR: ERROR

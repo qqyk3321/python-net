@@ -1,0 +1,8 @@
+{
+    "telnet_host": "127.0.0.1",
+    "telnet_port": 2003,
+    "device_port": "GigabitEthernet 0/0/0",
+    "ssh_ip": "192.168.56.9",
+    "usr": "python",
+    "passwd": "qqyk3321"
+}
