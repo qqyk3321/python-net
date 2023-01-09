@@ -27,12 +27,14 @@ class paramiko_ssh():
         return self
         pass
     def close(self):
+        print(f"{self.ip} channel of ssh close")
         self.channel.close()
         self.ssh_client.close()
     def __exit__(self, exc_type, exc_val, exc_tb):
         self.close()
         # 通过exc_type参数接收到的值，来判断程序执行是否出现异常
         # 如果是None,说明没有异常
+        
         if exc_type == None:
             print('正常执行')
         else:
@@ -44,6 +46,8 @@ class paramiko_ssh():
         # 如果是False那么就会继续向外抛出，程序会看到系统提示的异常信息
         # 如果是True不会向外抛出,程序看不到系统提示信息，只能看到else中的输出
         return True
+    def __close_show__(self,):
+        print(f"{self.ip} channel of ssh close")
     def __init_para__(self,ip,usr,passwd):
         self.ip=ip
         self.usr=usr
@@ -63,9 +67,15 @@ class paramiko_ssh():
 
     def channel_recv(self,show=None):
         output = self.channel.recv(65535).decode('utf-8')
+        output=self.__display_with_ip(output)
         if(show!=None):
             print(output)
         return output
+    def __display_with_ip(self,output:str):
+        output_list=output.split('\n')
+        for nu in range(len(output_list)):
+            output_list[nu]=f"{self.ip}>>  "+output_list[nu]
+        return ('\n').join(output_list)
 
 
 
